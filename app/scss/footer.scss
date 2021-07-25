@@ -1,5 +1,7 @@
 .footer {
-    background: #272724;
+    .container-fluid {
+        background: $grey-dark;
+    }
     &__inner {
         margin: 0 auto;
         max-width: 1024px;
@@ -10,7 +12,6 @@
     &__general {
         display: flex;
     }
-    &__submenu {}
     &__submenu:nth-child(1) {
         margin-right: 110px;
     }
@@ -20,14 +21,12 @@
     &__submenu:nth-child(3) {
         margin-right: 65px;
     }
-
     &__title {
         color: #aeaeae;
         font-size: 20px;
         margin-bottom: 16px;
         text-transform: capitalize;
     }
-    &__menu {}
     &__socials {
         display: flex;
         flex-direction: column;
@@ -37,8 +36,6 @@
     &__socials-main {
         display: flex;
         gap: 20px;
-    }
-    &__socials-link {
     }
     &__socials-img {
         fill: #696b6a;
@@ -52,12 +49,12 @@
         font-size: 15px;
         padding-left: 10px;
     }
-}
-.container-fluid {
-
+    &__socials-text-link {
+        color: inherit;
+    }
 }
 .footer-menu {
-    padding-left: 0cm;
+    padding-left: 0;
     &__item {
         height: 22px;
     }

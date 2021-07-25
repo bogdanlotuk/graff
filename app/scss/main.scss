@@ -9,19 +9,33 @@ html {
     box-sizing: inherit;
 }
 
+$black: #000;
+$white: #fff;
+$white-transparent: rgba(255, 255, 255, 0.9);
+$pink: #de6d6e;
+$pink-active: #eb393c;
+$grey-light: #8b8b8b;
+$grey: #818181;
+$grey-dark: #272724;
+$grey-title: #4d4d4d;
+$grey-text: #636363;
+$blue: #4eb9f4;
+$green: #6fc125;
+$red: #ff5649;
+$orange: #e48f23;
+
 a {
     text-decoration: none;
-    // color: #fff;
 }
 a:hover {
-    color: white;
+    color: $white;
 }
 
 body {
     font-family: 'UniversLT', sans-serif;
     font-size: 16px;
-    color: #8b8b8b;
-    background-color: #fff;
+    color: $grey-light;
+    background-color: $white;
 }
 .container-fluid {
     max-width: 1280px;
@@ -33,6 +47,3 @@ ul {
     margin: 0;
 }
 
-.yellow {
-    color: #D1A954;
-}

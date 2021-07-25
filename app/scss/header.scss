@@ -1,5 +1,5 @@
 .header {
-    color: #fff;
+    color: $white;
     &__top {
         position: fixed;
         margin: 0 auto;
@@ -7,7 +7,7 @@
         height: 90px;
         top: 0;
         left: 0;
-        background: rgba(255, 255, 255, 0.9);
+        background: $white-transparent;
         z-index: 10;
     }
     &__top-inner {
@@ -17,27 +17,22 @@
         padding: 0 40px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        
+        align-items: center;        
     }
     &__logo {
         margin-left: -3px;
     }
-    &__logo-img {}
     &__navigation {
         margin-left: auto;
         margin-top: 8px;
     }
-    
-    &__menu {
-    }
     &__login {
-        background: #de6d6e;
+        background: $pink;
         border: none;
         font-family: 'Segoe';
         font-size: 17px;
         text-transform: capitalize;
-        color: #fff;
+        color: $white;
         border-radius: 3px;
         padding: 1px 14px 1px 33px;
         margin: 9px 5px 0 42px;
@@ -55,7 +50,7 @@
     }
     &__login:hover {
         transition: all 0.5s ease-out;
-        background: #eb393c
+        background: $pink-active;
     }
     &__center {
         display: flex;
@@ -78,24 +73,21 @@
         text-align: center;
         font-size: 25px;
         margin: 0;
-        color: rgba(255, 255, 255, 0.9);
+        color: $white-transparent;
     }
-}
-.container-fluid {
 }
 .menu-list {
     display: flex;
     gap: 35px;
-    &__item {}
     &__item-link {
         font-family: 'Segoe';
         font-size: 17px;
         text-transform: capitalize;
-        color: #818181;
+        color: $grey;
     }
     &__item-link:hover {
-        color: #000;
+        color: $black;
         display: relative;
-        border-bottom: 2px solid #000;
+        border-bottom: 2px solid $black;
     }
 }

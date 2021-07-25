@@ -11,8 +11,6 @@
         display: flex;
         gap: 26px;
     }
-    &__img {}
-    &__img-link {}
     &__description {
         display: flex;
         flex-direction: column;
@@ -20,14 +18,10 @@
     }
     &__title {
         font-size: 27px;
-        color: #4d4d4d;
+        color: $grey-title;
     }
     &__text {
         margin-bottom: 0;
-        color: #636363;
+        color: $grey-text;
     }
-}
-.container-fluid {
-}
-.about-img {
 }

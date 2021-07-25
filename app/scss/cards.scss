@@ -8,12 +8,12 @@
     }
     &__title {
         font-size: 35px;
-        color: #4d4d4d;
+        color: $grey-title;
         margin-bottom: 12px;
     }
     &__text {
         font-size: 17px;
-        color: #636363;
+        color: $grey-text;
         max-width: 835px;
         text-align: center;
         line-height: 130%;
@@ -23,9 +23,6 @@
         display: flex;
         gap: 73px;
     }
-    &__general-item {}
-}
-.container-fluid {
 }
 .item {    
     display: flex;
@@ -41,7 +38,7 @@
     &__text {
         font-size: 18px;
         text-transform: capitalize;
-        color: #fff;
+        color: $white;
         position: absolute;
         bottom: 28px;
         left: 50%;
@@ -49,14 +46,13 @@
         margin: 0;
     }
     &__text-hover {
-        color: #fff;
+        color: $white;
         display: none;
         font-size: 12px;
         text-align: center;
     }
 }
 .item:hover {
-
     .item__img,
     .item__text {
         opacity: 0.6;
@@ -69,18 +65,17 @@
         top: 50%;
         transform: translateX(50%);
         transform: translateY(-50%);
-
     }
 }
 .item:nth-child(1) {
-    background-color: #4eb9f4;
+    background-color: $blue;
 }
 .item:nth-child(2) {
-    background-color: #6fc125;
+    background-color: $green;
 }
 .item:nth-child(3) {
-    background-color: #ff5649;
+    background-color: $red;
 }
 .item:nth-child(4) {
-    background-color: #e48f23;
+    background-color: $orange;
 }
